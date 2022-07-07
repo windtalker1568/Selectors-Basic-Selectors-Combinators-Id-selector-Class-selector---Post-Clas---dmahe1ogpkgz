@@ -13,14 +13,14 @@
   }
 
   .left-content{
-      grid-column: 1;
+      grid-column: span 1;
       background-color: black;
       color: ghostwhite;
       padding: 1rem;
 
   }
   .right-main-content{
-      grid-column: 1/ span 2;
+      grid-column: span 1/ span 2;
       background-color: rgb(137, 241, 68);
       padding-left: 48px;
       padding-right: 48px;
